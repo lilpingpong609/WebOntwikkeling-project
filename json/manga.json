@@ -1,0 +1,259 @@
+[
+    {
+        "id": "MNG-001",
+        "title": "One Piece",
+        "discription": "A story about pirates searching for the ultimate treasure.",
+        "volume": 100,
+        "isOngoing":true,
+        "releaseDate": "1997-07-22",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg",
+        "genre":"Adventure",
+        "themes":["Friendship", "Adventure", "Action"],
+        "anime":{
+            "id": "ANM-001",
+            "studio": "Toei Animation",
+            "episodes": 1100,
+            "isFinished": false
+        }
+        
+    },
+    {
+        "id":"MNG-002",
+        "title":"Kingdom",
+        "discription":"dramatizes the Warring States period of ancient China (475-221 BCE)",
+        "volume": 78,
+        "isOngoing": true,
+        "releaseDate": "2006-01-26",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPfbq_uZOEsNzTAX-WuuzkEumyrnEPSghbGQ&s",
+        "genre": "Epic Historical Military",
+        "themes": ["Warfare","Political Strategy","Ambition"],
+        "anime":{
+            "id":"ANM-002",
+            "studio":"studio Pierrot",
+            "episodes": 142,
+            "isFinished" : false
+        }
+
+    },
+    {
+        "id": "MNG-003",
+        "title": "Naruto",
+        "discription": "Naruto Uzumaki, a mischievous adolescent ninja, struggles as he searches for recognition and dreams of becoming the Hokage.",
+        "volume": 72,
+        "isOngoing": false,
+        "releaseDate": "1999-09-21",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX5QTY5ZC8M_-cJqOV5G7OhiY6Tzktc7Z2RA&s",
+        "genre": "Adventure Fantasy",
+        "themes": ["Martial Arts", "Coming-of-age", "Dreams"],
+        "anime": {
+            "id": "ANM-003",
+            "studio": "Studio Pierrot",
+            "episodes": 720,
+            "isFinished": true
+        }
+    },
+    {
+        "id": "MNG-004",
+        "title": "Your Lie in April",
+        "discription": "A piano prodigy who lost his ability to play after a traumatic event finds his world regaining color through a free-spirited violinist.",
+        "volume": 11,
+        "isOngoing": false,
+        "releaseDate": "2011-04-06",
+        "imageUrl": "https://images.leslibraires.ca/books/9782355928093/front/9782355928093_medium.jpg",
+        "genre": "Musical Drama",
+        "themes": ["Music", "Romance", "Tragedy"],
+        "anime": {
+            "id": "ANM-004",
+            "studio": "A-1 Pictures",
+            "episodes": 22,
+            "isFinished": true
+        }
+    },
+    {
+        "id": "MNG-005",
+        "title": "Erased",
+        "discription": "A struggling manga artist with the ability to travel back in time moments before a life-threatening incident occurs is sent back 18 years to prevent a kidnapping.",
+        "volume": 9,
+        "isOngoing": false,
+        "releaseDate": "2012-06-04",
+        "imageUrl": "https://m.media-amazon.com/images/I/81gMS-X1rML._AC_UF894,1000_QL80_.jpg",
+        "genre": "Psychological Thriller",
+        "themes": ["Time Travel", "Mystery", "Supernatural"],
+        "anime": {
+            "id": "ANM-005",
+            "studio": "A-1 Pictures",
+            "episodes": 12,
+            "isFinished": true
+        }
+    },
+    {
+        "id": "MNG-006",
+        "title": "Chainsaw Man",
+        "discription": "A poor young man becomes a devil hunter after merging with his pet chainsaw devil to survive.",
+        "volume": 17,
+        "isOngoing": true,
+        "releaseDate": "2018-12-03",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmsnlKu8hxDvRQlNdwwSbn-mgH9y35GhrWAQ&s",
+        "genre": "Dark Fantasy",
+        "themes": ["Devils", "Gore", "Loneliness"],
+        "anime": {
+            "id": "ANM-006",
+            "studio": "MAPPA",
+            "episodes": 12,
+            "isFinished": false
+        }
+    },
+    {
+        "id": "MNG-007",
+        "title": "Spy x Family",
+        "discription": "A spy on an undercover mission marries a professional assassin and adopts a telepathic daughter, none of them knowing each other's secrets.",
+        "volume": 13,
+        "isOngoing": true,
+        "releaseDate": "2019-03-25",
+        "imageUrl": "https://cdn.kobo.com/book-images/07d1ab28-6fb4-4bfd-b125-21354e434b17/353/569/90/False/spy-x-family-vol-1.jpg",
+        "genre": "Action Comedy",
+        "themes": ["Espionage", "Family", "Secret Identities"],
+        "anime": {
+            "id": "ANM-007",
+            "studio": "Wit Studio",
+            "episodes": 37,
+            "isFinished": false
+        }
+    },
+    {
+        "id": "MNG-008",
+        "title": "Akame ga Kill!",
+        "discription": "A young villager travels to the Capital to raise money for his home, only to discover a world of unimaginable corruption and joins a group of assassins to fight it.",
+        "volume": 15,
+        "isOngoing": false,
+        "releaseDate": "2010-03-20",
+        "imageUrl": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11321710_b_v8_aa.jpg",
+        "genre": "Dark Fantasy",
+        "themes": ["Assassins", "Corruption", "Action"],
+        "anime": {
+            "id": "ANM-008",
+            "studio": "White Fox",
+            "episodes": 24,
+            "isFinished": true
+        }
+    },
+    {
+        "id": "MNG-009",
+        "title": "Jujutsu Kaisen",
+        "discription": "A high school student swallows a rotted finger belonging to a powerful Curse and joins a secret society of Jujutsu Sorcerers to exorcise it.",
+        "volume": 25,
+        "isOngoing": true,
+        "releaseDate": "2018-03-05",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/46/Jujutsu_kaisen.jpg",
+        "genre": "Action Supernatural",
+        "themes": ["Curses", "Exorcism", "School Life"],
+        "anime": {
+            "id": "ANM-009",
+            "studio": "MAPPA",
+            "episodes": 47,
+            "isFinished": false
+        }
+    },
+    {
+        "id": "MNG-010",
+        "title": "KonoSuba: God's Blessing on This Wonderful World!",
+        "discription": "After a pathetic death, Kazuma Sato is sent to a fantasy world with the goddess Aqua, only to find out that being a hero is much harder than it looks.",
+        "volume": 17,
+        "isOngoing": false,
+        "releaseDate": "2014-09-09",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BNTQ5NzJjMjgtNDliNC00YTdmLWJiOTQtYWRiMzY4OWU5NGQ3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "genre": "Isekai Comedy",
+        "themes": ["Magic", "Parody", "Adventure"],
+        "anime": {
+            "id": "ANM-010",
+            "studio": "Studio Deen",
+            "episodes": 31,
+            "isFinished": false
+        }
+    },
+    {
+        "id": "MNG-011",
+        "title": "Prison School",
+        "discription": "Five boys are the first male students at an all-girls boarding school, but after being caught peeping, they are sent to the school's Internal Prison.",
+        "volume": 28,
+        "isOngoing": false,
+        "releaseDate": "2011-02-07",
+        "imageUrl": "https://cdn3.depoort.com/118895-preview_bd_big_notfill/volume-1.jpg",
+        "genre": "Ecchi Comedy",
+        "themes": ["Prison", "High School", "Survival"],
+        "anime": {
+            "id": "ANM-011",
+            "studio": "J.C.Staff",
+            "episodes": 12,
+            "isFinished": true
+        }
+    },
+    {
+        "id": "MNG-012",
+        "title": "Plastic Memories",
+        "discription": "In a future where androids called Giftias have a limited lifespan, Tsukasa Mizugaki joins the Terminal Service to retrieve them before their memories fade.",
+        "volume": 3,
+        "isOngoing": false,
+        "releaseDate": "2015-04-05",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BZmM1Yjc3MjItMjk4NC00NmEwLWIyOWYtMmM4ODU5NDM0MDZmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "genre": "Sci-Fi Drama",
+        "themes": ["Androids", "Romance", "Tragedy"],
+        "anime": {
+            "id": "ANM-012",
+            "studio": "Doga Kobo",
+            "episodes": 13,
+            "isFinished": true
+        }
+    },
+    {
+        "id": "MNG-013",
+        "title": "The Disastrous Life of Saiki K.",
+        "discription": "Kusuo Saiki is a high school student who was born with all manner of psychic abilities, but he just wants to live a normal, quiet life.",
+        "volume": 26,
+        "isOngoing": false,
+        "releaseDate": "2012-05-14",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMzJhYWEyMWUtZDYwNS00NTU4LTgwODItYjBlNzEwMTc5MTc2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "genre": "Comedy Supernatural",
+        "themes": ["Psychic Powers", "School Life", "Parody"],
+        "anime": {
+            "id": "ANM-013",
+            "studio": "J.C.Staff",
+            "episodes": 145,
+            "isFinished": true
+        }
+    },
+    {
+        "id": "MNG-014",
+        "title": "Black Clover",
+        "discription": "In a world where magic is everything, Asta is born without any. To prove his strength and keep a promise to his friend, he aims to become the Wizard King.",
+        "volume": 36,
+        "isOngoing": true,
+        "releaseDate": "2015-02-16",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/69/Black_Clover%2C_volume_1.jpg",
+        "genre": "Shonen Fantasy",
+        "themes": ["Magic", "Rivalry", "Persistence"],
+        "anime": {
+            "id": "ANM-014",
+            "studio": "Studio Pierrot",
+            "episodes": 170,
+            "isFinished": false
+        }
+    },
+    {
+        "id": "MNG-015",
+        "title": "Grand Blue Dreaming",
+        "discription": "Iori Kitahara moves to the coastal town of Izu for his university studies, only to get dragged into the hard-drinking, wild world of the local diving club.",
+        "volume": 21,
+        "isOngoing": true,
+        "releaseDate": "2014-04-07",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BNjczYjZkYzEtOTdhMS00MDBhLWI0NGQtNmY2OWQwNTBiMjJjXkEyXkFqcGc@._V1_.jpg",
+        "genre": "Comedy",
+        "themes": ["Diving", "College Life", "Drinking Culture"],
+        "anime": {
+            "id": "ANM-015",
+            "studio": "Zero-G",
+            "episodes": 12,
+            "isFinished": true
+        }
+    }
+]

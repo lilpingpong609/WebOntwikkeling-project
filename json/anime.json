@@ -1,0 +1,137 @@
+[
+  {
+    "id": "ANM-001",
+    "title": "One Piece",
+    "studio": "Toei Animation",
+    "episodes": 1100,
+    "isFinished": false,
+    "studioLocation": "Nerima, Tokyo",
+    "averageRating": 8.7
+  },
+  {
+    "id": "ANM-002",
+    "title": "Kingdom",
+    "studio": "Studio Pierrot",
+    "episodes": 142,
+    "isFinished": false,
+    "studioLocation": "Mitaka, Tokyo",
+    "averageRating": 8.3
+  },
+  {
+    "id": "ANM-003",
+    "title": "Naruto",
+    "studio": "Studio Pierrot",
+    "episodes": 720,
+    "isFinished": true,
+    "studioLocation": "Mitaka, Tokyo",
+    "averageRating": 8.2
+  },
+  {
+    "id": "ANM-004",
+    "title": "Your Lie in April",
+    "studio": "A-1 Pictures",
+    "episodes": 22,
+    "isFinished": true,
+    "studioLocation": "Suginami, Tokyo",
+    "averageRating": 8.6
+  },
+  {
+    "id": "ANM-005",
+    "title": "Erased",
+    "studio": "A-1 Pictures",
+    "episodes": 12,
+    "isFinished": true,
+    "studioLocation": "Suginami, Tokyo",
+    "averageRating": 8.4
+  },
+  {
+    "id": "ANM-006",
+    "title": "Chainsaw Man",
+    "studio": "MAPPA",
+    "episodes": 12,
+    "isFinished": false,
+    "studioLocation": "Suginami, Tokyo",
+    "averageRating": 8.5
+  },
+  {
+    "id": "ANM-007",
+    "title": "Spy x Family",
+    "studio": "Wit Studio",
+    "episodes": 37,
+    "isFinished": false,
+    "studioLocation": "Musashino, Tokyo",
+    "averageRating": 8.7
+  },
+  {
+    "id": "ANM-008",
+    "title": "Akame ga Kill!",
+    "studio": "White Fox",
+    "episodes": 24,
+    "isFinished": true,
+    "studioLocation": "Suginami, Tokyo",
+    "averageRating": 7.8
+  },
+  {
+    "id": "ANM-009",
+    "title": "Jujutsu Kaisen",
+    "studio": "MAPPA",
+    "episodes": 47,
+    "isFinished": false,
+    "studioLocation": "Suginami, Tokyo",
+    "averageRating": 8.8
+  },
+  {
+    "id": "ANM-010",
+    "title": "KonoSuba",
+    "studio": "Studio Deen",
+    "episodes": 31,
+    "isFinished": false,
+    "studioLocation": "Musashino, Tokyo",
+    "averageRating": 8.1
+  },
+  {
+    "id": "ANM-011",
+    "title": "Prison School",
+    "studio": "J.C.Staff",
+    "episodes": 12,
+    "isFinished": true,
+    "studioLocation": "Musashino, Tokyo",
+    "averageRating": 7.6
+  },
+  {
+    "id": "ANM-012",
+    "title": "Plastic Memories",
+    "studio": "Doga Kobo",
+    "episodes": 13,
+    "isFinished": true,
+    "studioLocation": "Nerima, Tokyo",
+    "averageRating": 7.7
+  },
+  {
+    "id": "ANM-013",
+    "title": "The Disastrous Life of Saiki K.",
+    "studio": "J.C.Staff",
+    "episodes": 145,
+    "isFinished": true,
+    "studioLocation": "Musashino, Tokyo",
+    "averageRating": 8.4
+  },
+  {
+    "id": "ANM-014",
+    "title": "Black Clover",
+    "studio": "Studio Pierrot",
+    "episodes": 170,
+    "isFinished": false,
+    "studioLocation": "Mitaka, Tokyo",
+    "averageRating": 8.1
+  },
+  {
+    "id": "ANM-015",
+    "title": "Grand Blue Dreaming",
+    "studio": "Zero-G",
+    "episodes": 12,
+    "isFinished": true,
+    "studioLocation": "Suginami, Tokyo",
+    "averageRating": 8.0
+  }
+]
