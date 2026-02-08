@@ -144,7 +144,7 @@
         "volume": 25,
         "isOngoing": true,
         "releaseDate": "2018-03-05",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/46/Jujutsu_kaisen.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/lilpingpong609/WebOntwikkeling-project/main/pictures/Jujutsu_kaisen.jpg",
         "genre": "Action Supernatural",
         "themes": ["Curses", "Exorcism", "School Life"],
         "anime": {
