@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %> - MangaDB</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <%- include('partials/navbar') %>
+
+    <div class="container">
+        <a href="/manga/<%= manga.id %>" class="btn-back">← Terug naar <%= manga.title %></a>
+
+        <h1>Edit: <%= manga.title %></h1>
+
+        <form method="POST" action="/manga/<%= manga.id %>/edit" class="edit-form">
+
+            <!-- Veld 1: Title (text) -->
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input
+                    type="text"
+                    id="title"
+                    name="title"
+                    value="<%= manga.title %>"
+                    required
+                />
+            </div>
+
+            <!-- Veld 2: Genre (select) -->
+            <div class="form-group">
+                <label for="genre">Genre</label>
+                <select id="genre" name="genre">
+                    <% const genres = ['Action','Adventure','Comedy','Drama','Fantasy','Horror',
+                       'Mystery','Romance','Sci-Fi','Slice of Life','Sports','Supernatural','Thriller']; %>
+                    <% genres.forEach(g => { %>
+                        <option value="<%= g %>" <%= manga.genre === g ? 'selected' : '' %>><%= g %></option>
+                    <% }) %>
+                </select>
+            </div>
+
+            <!-- Veld 3: Volumes (number) -->
+            <div class="form-group">
+                <label for="volume">Volumes</label>
+                <input
+                    type="number"
+                    id="volume"
+                    name="volume"
+                    value="<%= manga.volume %>"
+                    min="1"
+                    required
+                />
+            </div>
+
+            <!-- Veld 4: Ongoing (select) -->
+            <div class="form-group">
+                <label for="isOngoing">Ongoing</label>
+                <select id="isOngoing" name="isOngoing">
+                    <option value="true"  <%= manga.isOngoing ? 'selected' : '' %>>✅ Yes</option>
+                    <option value="false" <%= !manga.isOngoing ? 'selected' : '' %>>❌ No</option>
+                </select>
+            </div>
+
+            <!-- Veld 5: Release Date (text) -->
+            <div class="form-group">
+                <label for="releaseDate">Release Date</label>
+                <input
+                    type="text"
+                    id="releaseDate"
+                    name="releaseDate"
+                    value="<%= manga.releaseDate %>"
+                />
+            </div>
+
+            <!-- Veld 6: Description (textarea) -->
+            <div class="form-group">
+                <label for="discription">Description</label>
+                <textarea id="discription" name="discription" rows="5"><%= manga.discription %></textarea>
+            </div>
+
+            <button type="submit" class="btn-save">💾 Opslaan</button>
+        </form>
+    </div>
+</body>
+</html>

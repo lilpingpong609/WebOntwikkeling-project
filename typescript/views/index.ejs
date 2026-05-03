@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MangaDB</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <%- include('partials/navbar') %>
+
+    <div class="container">
+        <!-- Search & Filter -->
+        <form method="GET" action="/" class="filter-form">
+            <input
+                type="text"
+                name="search"
+                placeholder="Search by title..."
+                value="<%= search %>"
+            />
+            <input type="hidden" name="sort" value="<%= sortField %>" />
+            <input type="hidden" name="order" value="<%= sortOrder %>" />
+            <button type="submit">Search</button>
+            <a href="/" class="btn-clear">Clear</a>
+        </form>
+
+        <!-- Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th><a href="/?search=<%= search %>&sort=title&order=<%= sortField === 'title' && sortOrder === 'asc' ? 'desc' : 'asc' %>">Title</a></th>
+                    <th><a href="/?search=<%= search %>&sort=genre&order=<%= sortField === 'genre' && sortOrder === 'asc' ? 'desc' : 'asc' %>">Genre</a></th>
+                    <th><a href="/?search=<%= search %>&sort=volume&order=<%= sortField === 'volume' && sortOrder === 'asc' ? 'desc' : 'asc' %>">Volumes</a></th>
+                    <th><a href="/?search=<%= search %>&sort=releaseDate&order=<%= sortField === 'releaseDate' && sortOrder === 'asc' ? 'desc' : 'asc' %>">Release Date</a></th>
+                    <th><a href="/?search=<%= search %>&sort=isOngoing&order=<%= sortField === 'isOngoing' && sortOrder === 'asc' ? 'desc' : 'asc' %>">Ongoing</a></th>
+                    <th>Detail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% mangaList.forEach(manga => { %>
+                <tr>
+                    <td><%= manga.title %></td>
+                    <td><%= manga.genre %></td>
+                    <td><%= manga.volume %></td>
+                    <td><%= manga.releaseDate %></td>
+                    <td><%= manga.isOngoing ? '✅ Yes' : '❌ No' %></td>
+                    <td><a href="/manga/<%= manga.id %>" class="btn-detail">View</a></td>
+                </tr>
+                <% }) %>
+            </tbody>
+        </table>
+
+        <% if (mangaList.length === 0) { %>
+            <p class="no-results">No manga found for "<%= search %>".</p>
+        <% } %>
+    </div>
+</body>
+</html>

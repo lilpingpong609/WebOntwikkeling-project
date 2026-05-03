@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= manga.title %> - MangaDB</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <%- include('partials/navbar') %>
+
+    <div class="container">
+        <a href="/" class="btn-back">← Back to overview</a>
+    <a href="/manga/<%= manga.id %>/edit" class="btn-detail" style="margin-left: 12px;"> Edit</a>
+
+        <div class="detail-card">
+            <img src="<%= manga.imageUrl %>" alt="<%= manga.title %>" class="detail-img" />
+
+            <div class="detail-info">
+                <h1><%= manga.title %></h1>
+                <p class="detail-id">ID: <%= manga.id %></p>
+
+                <p><strong>Description:</strong> <%= manga.discription %></p>
+                <p><strong>Genre:</strong> <%= manga.genre %></p>
+                <p><strong>Volumes:</strong> <%= manga.volume %></p>
+                <p><strong>Release Date:</strong> <%= manga.releaseDate %></p>
+                <p><strong>Ongoing:</strong> <%= manga.isOngoing ? '✅ Yes' : '❌ No' %></p>
+                <p><strong>Themes:</strong> <%= manga.themes.join(', ') %></p>
+            </div>
+        </div>
+
+        <!-- Related Anime -->
+        <div class="related-section">
+            <h2>Related Anime</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Studio</th>
+                        <th>Episodes</th>
+                        <th>Finished</th>
+                        <th>Detail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><%= manga.anime.id %></td>
+                        <td><%= manga.anime.studio %></td>
+                        <td><%= manga.anime.episodes %></td>
+                        <td><%= manga.anime.isFinished ? '✅ Yes' : '❌ No' %></td>
+                        <td><a href="/anime/<%= manga.anime.id %>" class="btn-detail">View</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= anime.id %> - MangaDB</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <%- include('partials/navbar') %>
+
+    <div class="container">
+        <a href="/manga/<%= manga.id %>" class="btn-back">← Back to <%= manga.title %></a>
+
+        <div class="detail-card">
+            <img src="<%= manga.imageUrl %>" alt="<%= manga.title %>" class="detail-img" />
+
+            <div class="detail-info">
+                <h1>Anime: <%= manga.title %></h1>
+                <p class="detail-id">ID: <%= anime.id %></p>
+
+                <p><strong>Studio:</strong> <%= anime.studio %></p>
+                <p><strong>Episodes:</strong> <%= anime.episodes %></p>
+                <p><strong>Finished:</strong> <%= anime.isFinished ? '✅ Yes' : '❌ No' %></p>
+
+                <h3>Based on Manga:</h3>
+                <p><strong>Title:</strong> <%= manga.title %></p>
+                <p><strong>Genre:</strong> <%= manga.genre %></p>
+                <p><strong>Volumes:</strong> <%= manga.volume %></p>
+                <a href="/manga/<%= manga.id %>" class="btn-detail">View Manga</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
