@@ -16,7 +16,6 @@
 
         <form method="POST" action="/manga/<%= manga.id %>/edit" class="edit-form">
 
-            <!-- Veld 1: Title (text) -->
             <div class="form-group">
                 <label for="title">Title</label>
                 <input
@@ -28,7 +27,6 @@
                 />
             </div>
 
-            <!-- Veld 2: Genre (select) -->
             <div class="form-group">
                 <label for="genre">Genre</label>
                 <select id="genre" name="genre">
@@ -40,7 +38,6 @@
                 </select>
             </div>
 
-            <!-- Veld 3: Volumes (number) -->
             <div class="form-group">
                 <label for="volume">Volumes</label>
                 <input
@@ -53,16 +50,14 @@
                 />
             </div>
 
-            <!-- Veld 4: Ongoing (select) -->
             <div class="form-group">
                 <label for="isOngoing">Ongoing</label>
                 <select id="isOngoing" name="isOngoing">
-                    <option value="true"  <%= manga.isOngoing ? 'selected' : '' %>>✅ Yes</option>
-                    <option value="false" <%= !manga.isOngoing ? 'selected' : '' %>>❌ No</option>
+                    <option value="true"  <%= manga.isOngoing ? 'selected' : '' %>>Yes</option>
+                    <option value="false" <%= !manga.isOngoing ? 'selected' : '' %>> No</option>
                 </select>
             </div>
 
-            <!-- Veld 5: Release Date (text) -->
             <div class="form-group">
                 <label for="releaseDate">Release Date</label>
                 <input
@@ -73,13 +68,12 @@
                 />
             </div>
 
-            <!-- Veld 6: Description (textarea) -->
             <div class="form-group">
                 <label for="discription">Description</label>
                 <textarea id="discription" name="discription" rows="5"><%= manga.discription %></textarea>
             </div>
 
-            <button type="submit" class="btn-save">💾 Opslaan</button>
+            <button type="submit" class="btn-save">Opslaan</button>
         </form>
     </div>
 </body>

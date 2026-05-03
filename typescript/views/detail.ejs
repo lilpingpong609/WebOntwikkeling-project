@@ -24,7 +24,7 @@
                 <p><strong>Genre:</strong> <%= manga.genre %></p>
                 <p><strong>Volumes:</strong> <%= manga.volume %></p>
                 <p><strong>Release Date:</strong> <%= manga.releaseDate %></p>
-                <p><strong>Ongoing:</strong> <%= manga.isOngoing ? '✅ Yes' : '❌ No' %></p>
+                <p><strong>Ongoing:</strong> <%= manga.isOngoing ? ' Yes' : ' No' %></p>
                 <p><strong>Themes:</strong> <%= manga.themes.join(', ') %></p>
             </div>
         </div>
@@ -47,7 +47,7 @@
                         <td><%= manga.anime.id %></td>
                         <td><%= manga.anime.studio %></td>
                         <td><%= manga.anime.episodes %></td>
-                        <td><%= manga.anime.isFinished ? '✅ Yes' : '❌ No' %></td>
+                        <td><%= manga.anime.isFinished ? ' Yes' : ' No' %></td>
                         <td><a href="/anime/<%= manga.anime.id %>" class="btn-detail">View</a></td>
                     </tr>
                 </tbody>
